@@ -1,0 +1,18 @@
+<div class="container">
+  <table class="table table-hover table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Game Id</th>
+        <th scope="col">Played On</th>
+        <th scope="col">Score</th>
+      </tr>
+    </thead>
+    <tbody *ngFor = "let point of scores$">
+      <tr>
+        <td>{{ point.id }}</td>
+        <td>{{ point.playedat }}</td>
+        <td>{{ point.scorepoint }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
