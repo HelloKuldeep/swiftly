@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewEncapsulation  } from '@angular/core';
 import { Config } from 'ngx-countdown';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-play',
@@ -9,13 +10,15 @@ import { Config } from 'ngx-countdown';
 })
 export class PlayComponent implements OnInit {
 
-  constructor() { }
+  changer : boolean = false;
+
+  constructor( private router: Router ) { }
 
   ngOnInit() {
   }
 
   config: Config = {
-    leftTime: 5,
+    leftTime: 1200,
     repaint: function() {
       const me: any = this;
       let content: string;
@@ -36,9 +39,15 @@ export class PlayComponent implements OnInit {
           setTimeout(() => {
             hand.node.parentElement.className = 'time flip';
           });
+        } else {
+          
         }
       });
     },
   };
+
+  onComplete() {
+    this.router.navigate(['/score',this.changer]);
+  }
 
 }

@@ -10,7 +10,7 @@ const routes: Routes = [
   component : HomeComponent
   },
   {
-    path : 'score',
+    path : 'score/:changer',
     component : ScoreComponent
   },
   {

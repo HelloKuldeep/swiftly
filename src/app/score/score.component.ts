@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
-//import { Observable } from 'rxjs';
+import { ActivatedRoute } from "@angular/router";
 
 @Component({
   selector: 'app-score',
@@ -10,14 +10,17 @@ import { DataService } from '../data.service';
 export class ScoreComponent implements OnInit {
 
   scores$: Object;
+  changer : boolean;
 
-  constructor( private data: DataService ) {
+  constructor( private data: DataService, private route: ActivatedRoute ) {
+    
   }
 
-  ngOnInit() {//console.log("oninit");
+  ngOnInit() {
     this.data.getScore().subscribe(
       data => this.scores$ = data
     );
+    this.route.params.subscribe( params => this.changer = params.changer )
   }
 
 }

@@ -1,5 +1,5 @@
 <div class="col text-center mb-3">
-  <countdown [config]="config" class="flip-cd">
+  <countdown (finished)="onComplete()" [config]="config" class="flip-cd">
     <div class="time">$!m!
       <div class="label"></div>
     </div>
@@ -8,3 +8,21 @@
     </div>
   </countdown>
 </div>
+<div class="container ">
+    <div class="row justify-content-center">
+      <div class="row mr-2">
+          <a class="btn btn-primary btn-xl"></a>
+      </div>
+      <div class="row ml-2">
+        <a class="btn btn-primary btn-xl"></a>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="row mr-2">
+        <a class="btn btn-primary btn-xl"></a>
+      </div>
+      <div class="row ml-2">
+        <a class="btn btn-primary btn-xl"></a>
+      </div>
+    </div>
+  </div>
