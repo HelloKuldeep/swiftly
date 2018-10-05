@@ -1,0 +1,25 @@
+$primary: #3C1742;
+
+.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+    &:active,
+    &:focus,
+    &:hover {
+        background-color: darken($primary, 10%) ;
+        border-color: darken($primary, 10%) ;
+    }
+    &:focus {
+        box-shadow: 0 0 0 0.2rem fade-out($primary, 0.5);
+    }
+}
+.btn-xl {
+    padding: 5rem 5rem;
+    margin: 5%;
+}
+a {
+    cursor: pointer;
+    &:hover {
+        opacity: 0.9;
+    }
+}

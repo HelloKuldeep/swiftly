@@ -1,24 +1,58 @@
 {
-    "score": [
-      {
-        "id": 1,
-        "playedat": "",
-        "scorepoint": 101
-      },
-      {
-        "id": 2,
-        "playedat": "Monday",
-        "scorepoint": 13
-      },
-      {
-        "id": 3,
-        "playedat": "Monday",
-        "scorepoint": 0
-      },
-      {
-        "id": 4,
-        "playedat": "",
-        "scorepoint": 11
-      }
-    ]
+  "score": [
+    {
+      "playedat": "10/4/2018 12:10:02 PM",
+      "maxMultiplier": 1,
+      "scorepoint": 0,
+      "id": 7
+    },
+    {
+      "playedat": "10/4/2018 12:11:23 PM",
+      "maxMultiplier": 2,
+      "scorepoint": 60,
+      "id": 8
+    },
+    {
+      "playedat": "10/4/2018 12:13:09 PM",
+      "maxMultiplier": 1,
+      "scorepoint": 10,
+      "id": 9
+    },
+    {
+      "playedat": "10/4/2018 12:14:29 PM",
+      "maxMultiplier": 6,
+      "scorepoint": 440,
+      "id": 10
+    },
+    {
+      "playedat": "10/5/2018 12:11:12 PM",
+      "maxscorefactor": 2,
+      "scorepoint": 50,
+      "id": 11
+    },
+    {
+      "playedat": "10/5/2018 12:19:22 PM",
+      "maxscorefactor": 2,
+      "scorepoint": 40,
+      "id": 12
+    },
+    {
+      "playedat": "10/5/2018 12:21:46 PM",
+      "maxscorefactor": 2,
+      "scorepoint": 40,
+      "id": 13
+    },
+    {
+      "playedat": "10/5/2018 12:23:39 PM",
+      "maxscorefactor": 1,
+      "scorepoint": 20,
+      "id": 14
+    },
+    {
+      "playedat": "10/5/2018 12:26:03 PM",
+      "maxscorefactor": 2,
+      "scorepoint": 50,
+      "id": 15
+    }
+  ]
 }
