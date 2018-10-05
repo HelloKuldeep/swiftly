@@ -112,13 +112,11 @@ export class PlayComponent implements OnInit, AfterViewInit {
 
   // select a card randomly and changes old card to white and new card to blue
   randomiseCards(){
-    let elem = document.getElementById("play");
-    // elem.style.width = this.getWidth();
     if (this.timerInMs <= 0) {
       this.endGame();
     }
     this.cards[this.lastRandomNumber - 1].hasColor = false;
-    elem = document.getElementById("card_" + this.cards[this.lastRandomNumber - 1].id);
+    let elem = document.getElementById("card_" + this.cards[this.lastRandomNumber - 1].id);
     elem.style.backgroundColor = 'white';
     let randomId: number = this.chooseRandomCard();
     this.cards[randomId - 1].hasColor = true;
@@ -127,7 +125,6 @@ export class PlayComponent implements OnInit, AfterViewInit {
   }
 
   // ----------------------------------------------------------------------------------------------------
-  
   
   // ------------------------------Post Processing After Game Is Over------------------------------------
 
@@ -180,7 +177,7 @@ export class PlayComponent implements OnInit, AfterViewInit {
     else{
       this.gameResetFactorer();
       clearInterval(this.randomCardIntervalId);
-      this.timeToRandomInMs += this.timeStep;
+      this.timeToRandomInMs = this.timeToRandomInMs >= this.initialTimeToRandom ? this.initialTimeToRandom : this.timeToRandomInMs + this.timeStep;
       this.randomWithNewTime();
       this.score -= this.penaltyScore;
       if(this.score<=0){
@@ -211,7 +208,7 @@ export class PlayComponent implements OnInit, AfterViewInit {
   // ------------------------------------Game Timer - Game Ending Trigger----------------------------------
   
   config: Config = {
-    leftTime: 5,
+    leftTime: 30,
     repaint: function() {
       const me: any = this;
       let content: string;

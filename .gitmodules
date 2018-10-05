@@ -1,0 +1,3 @@
+[submodule "json-server-heroku"]
+	path = json-server-heroku
+	url = ./json-server-heroku

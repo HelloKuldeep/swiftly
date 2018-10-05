@@ -9,10 +9,10 @@
     
   </countdown>
 
-<div class = "container" id="play">
+<div class = "card-deck d-flex justify-content-center" id="play">
   <app-card *ngFor = "let card of cards" [card]="card" (onClickListener)='cardClickProcess($event)'></app-card>
 </div>
 
-<div class="col text-center mb-3">
-  Score: {{score}}
+<div class="jumbotron pb-2 pt-2 text-white">
+  <h5>Score: {{score}}</h5>
 </div>

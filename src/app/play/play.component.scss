@@ -1,5 +1,15 @@
-#play {
-  width: 20%;
+.card-deck{
+  column-count: 2;
+}
+
+div {
+  .jumbotron {
+      background-color: #333031;
+      text-align: center;
+      margin: 2%;
+      margin-left: 30%;
+      margin-right: 30%;
+  }
 }
 
 .flip-cd {

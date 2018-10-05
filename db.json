@@ -1,18 +1,6 @@
 {
   "score": [
     {
-      "playedat": "10/4/2018 12:10:02 PM",
-      "maxMultiplier": 1,
-      "scorepoint": 0,
-      "id": 7
-    },
-    {
-      "playedat": "10/4/2018 12:11:23 PM",
-      "maxMultiplier": 2,
-      "scorepoint": 60,
-      "id": 8
-    },
-    {
       "playedat": "10/4/2018 12:13:09 PM",
       "maxMultiplier": 1,
       "scorepoint": 10,
@@ -25,34 +13,46 @@
       "id": 10
     },
     {
-      "playedat": "10/5/2018 12:11:12 PM",
-      "maxscorefactor": 2,
-      "scorepoint": 50,
+      "playedat": "10/5/2018 3:42:32 PM",
+      "maxscorefactor": 7,
+      "scorepoint": 5615,
       "id": 11
     },
     {
-      "playedat": "10/5/2018 12:19:22 PM",
-      "maxscorefactor": 2,
-      "scorepoint": 40,
+      "playedat": "10/5/2018 4:38:46 PM",
+      "maxscorefactor": 4,
+      "scorepoint": 185,
       "id": 12
     },
     {
-      "playedat": "10/5/2018 12:21:46 PM",
-      "maxscorefactor": 2,
-      "scorepoint": 40,
+      "playedat": "10/5/2018 4:38:46 PM",
+      "maxscorefactor": 4,
+      "scorepoint": 205,
       "id": 13
     },
     {
-      "playedat": "10/5/2018 12:23:39 PM",
+      "playedat": "10/5/2018 4:41:20 PM",
       "maxscorefactor": 1,
-      "scorepoint": 20,
+      "scorepoint": 0,
       "id": 14
     },
     {
-      "playedat": "10/5/2018 12:26:03 PM",
-      "maxscorefactor": 2,
-      "scorepoint": 50,
+      "playedat": "10/5/2018 4:50:10 PM",
+      "maxscorefactor": 7,
+      "scorepoint": 1200,
       "id": 15
+    },
+    {
+      "playedat": "10/5/2018 4:50:10 PM",
+      "maxscorefactor": 7,
+      "scorepoint": 1200,
+      "id": 16
+    },
+    {
+      "playedat": "10/5/2018 4:51:58 PM",
+      "maxscorefactor": 1,
+      "scorepoint": 0,
+      "id": 17
     }
   ]
 }
