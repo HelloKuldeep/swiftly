@@ -10,11 +10,11 @@ export class DataService {
   constructor( private http: HttpClient ) { }
 
   getScore() {
-    return this.http.get('http://localhost:3000/score');
+    return this.http.get('https://radiant-escarpment-32075.herokuapp.com/score');
   }
 
   postScores(score: Scores) {
-    return this.http.post('http://localhost:3000/score', score);
+    return this.http.post('https://radiant-escarpment-32075.herokuapp.com/score', score);
   }
 
 }

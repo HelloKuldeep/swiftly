@@ -44,7 +44,7 @@ export class PlayComponent implements OnInit, AfterViewInit {
   private penaltyScore = 5;
 
   // count after which gameSpeed increases
-  private gameSpeedIncrementClicks = 5;
+  private gameSpeedIncrementClicks = 3;
 
   // time game session started at
   private timePlayedAt: string;
@@ -71,7 +71,7 @@ export class PlayComponent implements OnInit, AfterViewInit {
   // ------------------------------------Game Timer - Game Ending Trigger----------------------------------
 
   config: Config = {
-    leftTime: 5,
+    leftTime: 30,
     repaint: function() {
       const me: any = this;
       let content: string;
