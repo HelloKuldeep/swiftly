@@ -1,6 +1,6 @@
-export class Scores{
-    id?:number;
-    playedat:string;
-    maxscorefactor:number;
-    scorepoint:number;
+export class Scores {
+    id?: number;
+    playedat: string;
+    maxscorefactor: number;
+    scorepoint: number;
 }

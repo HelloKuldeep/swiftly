@@ -1,4 +1,4 @@
-<div class="container">
+<div *ngIf = "scorecheck == true" class="container">
   <div *ngIf = "changer"> 
     <div class="jumbotron pb-5 pt-5 text-white">
       <h3>GAME OVER!!</h3>
@@ -23,4 +23,9 @@
       </tr>
     </tbody>
   </table>
+</div>
+<div *ngIf = "scorecheck == false" class="container">
+  <div class="jumbotron pb-5 pt-5 text-white">
+    <h3>PLAY A GAME FIRST BRO!!</h3>
+  </div>
 </div>

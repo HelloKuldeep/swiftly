@@ -1,5 +1,18 @@
-.card-deck{
-  column-count: 2;
+.card-deck {
+  margin: auto;
+}
+
+@media (max-width: 576px) {
+  .card-deck {
+    flex-flow: row wrap;
+    width: 350px;
+  }
+}
+
+@media (min-width: 576px) {
+  .card-deck {
+      width: 500px;
+  }
 }
 
 div {

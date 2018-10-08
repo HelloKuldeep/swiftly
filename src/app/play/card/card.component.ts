@@ -7,18 +7,17 @@ import { Card } from './card.model';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent {
-  // model class reference 
-  @Input() card : Card;
+  // model class reference
+  @Input() card: Card;
 
   // on click event listener
   @Output() onClickListener = new EventEmitter();
 
   // trigger game processing function in Game Component
-  onClick(){
-    if(this.card.hasColor){
+  onClick() {
+    if (this.card.hasColor) {
       this.onClickListener.emit(true);
-    }
-    else{
+    } else {
       this.onClickListener.emit(false);
     }
   }

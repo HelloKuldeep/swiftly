@@ -1,58 +1,10 @@
 {
   "score": [
     {
-      "playedat": "10/4/2018 12:13:09 PM",
-      "maxMultiplier": 1,
-      "scorepoint": 10,
-      "id": 9
-    },
-    {
-      "playedat": "10/4/2018 12:14:29 PM",
-      "maxMultiplier": 6,
-      "scorepoint": 440,
-      "id": 10
-    },
-    {
-      "playedat": "10/5/2018 3:42:32 PM",
-      "maxscorefactor": 7,
-      "scorepoint": 5615,
-      "id": 11
-    },
-    {
-      "playedat": "10/5/2018 4:38:46 PM",
-      "maxscorefactor": 4,
-      "scorepoint": 185,
-      "id": 12
-    },
-    {
-      "playedat": "10/5/2018 4:38:46 PM",
-      "maxscorefactor": 4,
-      "scorepoint": 205,
-      "id": 13
-    },
-    {
-      "playedat": "10/5/2018 4:41:20 PM",
-      "maxscorefactor": 1,
-      "scorepoint": 0,
-      "id": 14
-    },
-    {
-      "playedat": "10/5/2018 4:50:10 PM",
-      "maxscorefactor": 7,
-      "scorepoint": 1200,
-      "id": 15
-    },
-    {
-      "playedat": "10/5/2018 4:50:10 PM",
-      "maxscorefactor": 7,
-      "scorepoint": 1200,
-      "id": 16
-    },
-    {
-      "playedat": "10/5/2018 4:51:58 PM",
-      "maxscorefactor": 1,
-      "scorepoint": 0,
-      "id": 17
+      "playedat": "10/9/2018 1:08:04 AM",
+      "maxscorefactor": 2,
+      "scorepoint": 30,
+      "id": 1
     }
   ]
 }
