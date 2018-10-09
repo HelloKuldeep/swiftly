@@ -26,15 +26,24 @@ div.card{
     background-color: $primary;
     border-color: $primary;
 }
+
 .btn-xl {
     padding: 6rem;
     margin: 0%;
 }
+
 @media (max-width: 576px) {
     .btn-xl {
         padding: 5rem;
     }
 }
+
+@media (max-width: 445px) {
+    .btn-xl {
+        padding: 4rem;
+    }
+}
+
 a {
     cursor: pointer;
     &:active,

@@ -5,6 +5,18 @@
       "maxscorefactor": 2,
       "scorepoint": 30,
       "id": 1
+    },
+    {
+      "playedat": "10/9/2018 10:36:57 AM",
+      "maxscorefactor": 1,
+      "scorepoint": 0,
+      "id": 2
+    },
+    {
+      "playedat": "10/9/2018 10:44:27 AM",
+      "maxscorefactor": 1,
+      "scorepoint": 0,
+      "id": 3
     }
   ]
 }
