@@ -15,6 +15,13 @@ div.card{
     }
 }
 
+@media (max-width: 445px) {
+    div.card{
+        max-width: 8rem;
+        max-height: 8rem;
+    }
+}
+
 .btn-primary {
     background-color: $primary;
     border-color: $primary;
