@@ -71,7 +71,7 @@ export class PlayComponent implements OnInit, AfterViewInit {
   // ------------------------------------Game Timer - Game Ending Trigger----------------------------------
 
   config: Config = {
-    leftTime: 3000,
+    leftTime: 30,
     repaint: function() {
       const me: any = this;
       let content: string;
